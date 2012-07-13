@@ -29,7 +29,13 @@
 (define mcfly-start        "main.rkt")
 
 ;; TODO: Double-check that this includes all files for the PLaneT package:
-(define mcfly-files        '(defaults "combinator-unit.rkt"))
+(define mcfly-files        '(defaults "combinator-unit.rkt"
+                                      "private-combinator/combinator-parser.rkt"
+                                      "private-combinator/combinator.rkt"
+                                      "private-combinator/errors.rkt"
+                                      "private-combinator/parser-sigs.rkt"
+                                      "private-combinator/structs.rkt"
+                                      "examples/combinator-example.rkt"))
 
 ;; TODO: Add short name for license (e.g., "LGPLv3"). See http://www.gnu.org/licenses/
 (define mcfly-license      "!!!")
