@@ -1,6 +1,6 @@
 (module errors scheme/base
   
-  (require "structs.scm" "parser-sigs.ss")
+  (require "structs.rkt" "parser-sigs.rkt")
   
   (require scheme/unit)
     

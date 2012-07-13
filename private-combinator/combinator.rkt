@@ -4,8 +4,8 @@
            scheme/list
            (only-in (lib "etc.ss") opt-lambda))
   
-  (require "structs.scm"
-           "parser-sigs.ss"
+  (require "structs.rkt"
+           "parser-sigs.rkt"
            parser-tools/lex)
   
   (provide (all-defined-out))

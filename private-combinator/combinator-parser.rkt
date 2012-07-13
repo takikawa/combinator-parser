@@ -3,7 +3,7 @@
   (require scheme/list
            scheme/unit
            parser-tools/lex)
-  (require "structs.scm" "parser-sigs.ss" "combinator.scm" "errors.scm")
+  (require "structs.rkt" "parser-sigs.rkt" "combinator.rkt" "errors.rkt")
 
   (provide combinator-parser-tools@)
   
