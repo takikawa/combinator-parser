@@ -7,6 +7,13 @@
 
 @title{Combinator Parser}
 
+@bold{Note}: This package is provided for historical reasons.
+The code was previously part of the Racket distribution but
+was removed for lack of a maintainer. We
+recommend either using @racketmodname[parser-tools/yacc] or
+using other combinator libraries such as
+@hyperlink["http://planet.racket-lang.org/display.ss?package=parseq.plt&owner=bzlib"]{parseq}.
+
 This documentation provides directions on using the combinator parser
 library. It assumes familiarity with lexing and with combinator
 parsers. The library was originally developed by Kathy Gray.
@@ -22,7 +29,7 @@ that the input is already lexed into tokens using
 @racketmodname[parser-tools/lex]. This library relies on
 @racketmodname[lazy].
 
-@defthing[combinator-parser-tools unit?]{
+@defthing[combinator-parser-tools@ unit?]{
   This unit exports the signature
   @racket[combinator-parser^] and imports the signatures
   @racket[error-format-parameters^],
