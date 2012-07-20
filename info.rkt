@@ -7,6 +7,8 @@
 (define primary-file "main.rkt")
 (define categories '(devtools))
 (define compile-omit-paths '("examples"))
+(define release-notes '("Initial release"))
+
 
 (define mcfly-planet       'asumu/combinator-parser:1:0)
 
@@ -14,7 +16,7 @@
 (define mcfly-subtitle     "")
 
 ;; TODO: Add the Web home page URL for this package:
-(define homepage           "http://!!!")
+(define homepage           "http://www.racket-lang.org")
 
 ;; TODO: Add the author(s):
 (define mcfly-author       "!!!")
@@ -30,12 +32,14 @@
 
 ;; TODO: Double-check that this includes all files for the PLaneT package:
 (define mcfly-files        '(defaults "combinator-unit.rkt"
-                                      "private-combinator/combinator-parser.rkt"
-                                      "private-combinator/combinator.rkt"
-                                      "private-combinator/errors.rkt"
-                                      "private-combinator/parser-sigs.rkt"
-                                      "private-combinator/structs.rkt"
-                                      "examples/combinator-example.rkt"))
+                                      ("private-combinator"
+                                       "combinator-parser.rkt"
+                                       "combinator.rkt"
+                                       "errors.rkt"
+                                       "parser-sigs.rkt"
+                                       "structs.rkt")
+                                      ("examples" "combinator-example.rkt")
+                                      ("scribblings" "combinator-parser.scrbl")))
 
 ;; TODO: Add short name for license (e.g., "LGPLv3"). See http://www.gnu.org/licenses/
 (define mcfly-license      "!!!")
