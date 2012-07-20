@@ -8,3 +8,13 @@ using either
 [`parser-tools/yacc`](http://docs.racket-lang.org/parser-tools/Parsers.html?q=parser-tools/yacc)
 or other combinator libraries such as
 [parseq](http://planet.racket-lang.org/display.ss?package=parseq.plt&owner=bzlib).
+
+For legacy code, the easiest way to get `combinator-parser` working is to
+use `raco link`:
+
+  * `git clone git://github.com/takikawa/combinator-parser.git`
+  * `cd combinator-parser`
+  * `raco link .`
+
+This will install the `combinator-parser` as a collection in your Racket
+installation. Thus, all of your `require` statements should work as expected.
