@@ -10,7 +10,7 @@
 (define release-notes '("Initial release"))
 
 
-(define mcfly-planet       'asumu/combinator-parser:1:0)
+(define mcfly-planet       'plt/combinator-parser:1:0)
 
 ;; TODO: Add the subtitle string, or define "mcfly-title" instead:
 (define mcfly-subtitle     "")
