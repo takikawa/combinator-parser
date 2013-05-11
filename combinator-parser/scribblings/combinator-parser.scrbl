@@ -1,9 +1,8 @@
 #lang scribble/manual
 
-@(require planet/scribble
-          (for-label racket
+@(require (for-label racket
                      parser-tools/lex
-                     (this-package-in main)))
+                     "../main.rkt"))
 
 @title{Combinator Parser}
 
@@ -18,7 +17,7 @@ This documentation provides directions on using the combinator parser
 library. It assumes familiarity with lexing and with combinator
 parsers. The library was originally developed by Kathy Gray.
 
-@defmodule/this-package[combinator-unit]
+@defmodule[combinator-parser/combinator-unit]
 
 This library provides a unit implementing four higher-order functions
 that can be used to build a combinator parser, and the export and
