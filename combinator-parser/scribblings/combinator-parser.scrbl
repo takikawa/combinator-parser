@@ -9,9 +9,9 @@
 @bold{Note}: This package is provided for historical reasons.
 The code was previously part of the Racket distribution but
 was removed for lack of a maintainer. We
-recommend either using @racketmodname[parser-tools/yacc] or
-using other combinator libraries such as
-@hyperlink["http://planet.racket-lang.org/display.ss?package=parseq.plt&owner=bzlib"]{parseq}.
+recommend using either @racketmodname[parser-tools/yacc] or
+other combinator libraries such as
+@hyperlink["http://pkg-build.racket-lang.org/doc/parsack/index.html"]{Parsack}.
 
 This documentation provides directions on using the combinator parser
 library. It assumes familiarity with lexing and with combinator
