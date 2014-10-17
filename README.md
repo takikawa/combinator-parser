@@ -6,7 +6,8 @@ that is provided for historical reasons.  The code was previously part of the
 Racket distribution but was removed for lack of a maintainer. We recommend
 using either
 [`parser-tools/yacc`](http://docs.racket-lang.org/parser-tools/Parsers.html?q=parser-tools/yacc)
-or other combinator libraries such as [ragg](http://hashcollision.org/ragg/).
+or other parsing packages such as [parsack](http://pkg-build.racket-lang.org/doc/parsack/index.html)
+or [ragg](http://hashcollision.org/ragg/).
 
 For legacy code, the easiest way to get `combinator-parser` working is to
 use `raco pkg` if you have Racket v5.3.2 or newer:
