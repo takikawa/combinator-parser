@@ -25,7 +25,7 @@
 
 (define can-be-loaded-with 'all)
 
-(define scribblings        '(("scribblings/combinator-parser.scrbl" () (library))))
+(define scribblings        '(("scribblings/combinator-parser.scrbl" () (legacy))))
 
 ;; TODO: Set this to the file that has starting "doc" forms:
 (define mcfly-start        "main.rkt")
